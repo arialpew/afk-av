@@ -28,7 +28,7 @@ fn main() -> ! {
     let mut enigo = Enigo::new();
 
     loop {
-        // Total of 9 delay, worst case is 13s * 9 delay = 117s (less than 2 minutes).
+        // Total of 9 delay, best case is 18s, worst case is 90s (1mn30).
         // Move to macro A.
         enigo.mouse_move_to(WOW_ICON_WIDTH, WOW_ICON_HEIGHT);
         // Delay.
