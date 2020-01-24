@@ -9,17 +9,17 @@ static WOW_ICON_HEIGHT: i32 = 32;
 static JOIN_BG_POS_X: i32 = 140;
 static JOIN_BG_POS_Y: i32 = 325;
 
-static INCLUSIVE_MIN_SLEEP: u64 = 2;
-static EXCLUSIVE_MIN_SLEEP: u64 = 10;
+static INCLUSIVE_MIN_SLEEP_MS: u64 = 2000;
+static EXCLUSIVE_MIN_SLEEP_MS: u64 = 10000;
 
 static INTERACT_KEYBIND: Key = Key::F10;
 
 fn sleep_random_timer() {
     let mut rng = thread_rng();
-    let rng_wait_time = rng.gen_range(INCLUSIVE_MIN_SLEEP, EXCLUSIVE_MIN_SLEEP);
-    let wait_time_duration = Duration::from_secs(rng_wait_time);
+    let rng_wait_time = rng.gen_range(INCLUSIVE_MIN_SLEEP_MS, EXCLUSIVE_MIN_SLEEP_MS);
+    let wait_time_duration = Duration::from_millis(rng_wait_time);
 
-    println!("Sleep timer set to {}s", rng_wait_time);
+    println!("Sleep timer set to {}ms", rng_wait_time);
 
     thread::sleep(wait_time_duration);
 }
