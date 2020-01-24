@@ -65,7 +65,7 @@ The recommended way to counter AFK report is to have a WeakAura that will play r
 
 # Can Blizzard ban me for using this ?
 
-Since it's not publicly available, there's probably no chance the Warden the fingerprint of this program.
+Since it's not publicly available, there's probably no chance the Warden can compare the fingerprint of this program to his fingerprint database.
 
 There's 2 way you can be ban :
 
