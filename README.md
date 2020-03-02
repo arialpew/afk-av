@@ -2,6 +2,8 @@
 
 AFK Alterac Valley to get ranks for WoW Classic.
 
+**Note :** This was my own autoclicker for farming rank in WoW Classic. I release it in public because Blizzard had banned lot of botters and this is now unusable. DO NOT USE IT.
+
 # Guide
 
 1) Install Bartender addon.
