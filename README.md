@@ -67,14 +67,18 @@ The recommended way to counter AFK report is to have a WeakAura that will play r
 
 # Can Blizzard ban me for using this ?
 
-Since it's not publicly available, there's probably no chance the Warden can compare the fingerprint of this program to his fingerprint database.
+I used this program for many weeks before the banwave, I didn't get ban.
 
-There's 2 way you can be ban :
+But on February 2020 they started to ban players, so don't use it and play legit.
 
-- If Warden detect repeated action : we use a random timer for each action, but we don't know if Warden take time into account for this detection.
-- Multiple player report : there's no way to counter that. This bot doesn't require you to sit in Alterac Mountain, but player in BG can report you.
+There's 4 way they can detect it :
 
-Anyway, if you are ban, it's a 6 month ban.
+- Warden repeat action : we use a random timer for each action, but the mouse movement are not human.
+- Warden fingerprint : since it's publicly available, they can use the fingerprint.
+- Hook into WinAPI : they probably don't do it because they'll slowdown the process and cause lot of input lag, but we don't really know with 100% accuracy if they register hook into WinAPI.
+- Multiple player report : there's no way to counter that. This bot doesn't require you to sit in Alterac Mountain, but player in BG can report you because you'll sit in AV cave with 0 HK for the whole battleground. If you get lot of multiple report from different battleground, they ban.
+
+Anyway, if you are ban, it's from 1 week to 6 month ban, depends on how they classify the ban (afk is 1 week, bot is 6 month).
 
 # Build
 
